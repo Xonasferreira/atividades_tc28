@@ -1,4 +1,7 @@
-def calculadora_py (num1, num2, operador) :
+#   defenindo função
+
+def calculadorapy(num1, num2, operador) :
+
     if operador == 1 :
         return num1 + num2
     elif operador == 2 :
@@ -14,13 +17,13 @@ def calculadora_py (num1, num2, operador) :
     else :
         return 0
 
+#   entrada de dados
 
-print("CALCURADORA PYTHON\n")
-#entrada de dados
-num1 = float (input("Digite o primeiro numero:"))
+num1 = float (input("Digite o primeiro número:"))
 operador = float(input("Digite a referencia do operador:"))
-num2 = int(input("Digite o segundo numero:"))
+num2 = int(input("Digite o segundo número:"))
 
+#   saida de dados
 
-resultado = calculadora_py(num1,num2,operador)
-print("Resultado do calculo:" + str(resultado))
+resultado = calculadorapy(num1, num2, operador)
+print(f"Resultado do calculo: {resultado}")
