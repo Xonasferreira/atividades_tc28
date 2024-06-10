@@ -1,4 +1,4 @@
-#   defenindo função
+#   definindo a função
 
 def calculadorapy(num1, num2, operador) :
 
