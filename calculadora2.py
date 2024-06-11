@@ -30,7 +30,7 @@ while True :
     resultado = calculadorapy2(num1, num2, operador)
     print(f"Resultado do calculo: {resultado}")
 
-    #   verificar se deseja parar 
+    #   verificar se deseja parar
 
     parar = input ("Deseja realizar outra operação? Digite 'x' para parar ou qualquer outra tecla para continuar:")
     if parar.lower() == 'x':

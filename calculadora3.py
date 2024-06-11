@@ -48,5 +48,5 @@ def calculadorapy3():
                 print("Erro: Divisão por zero não é permitida.")
 
 
-# saida dos dados processadosg
+# saida dos dados processados
 calculadorapy3()
